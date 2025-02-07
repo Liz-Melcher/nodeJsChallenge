@@ -75,8 +75,10 @@ ${data.installation}
 ## Usage
 
 ${data.usage}
-    
-${renderLicenseSection(data.license)}
+
+## License
+
+This project is licensed under the [${data.license}](${renderLicenseLink(data.license)}) license.
 
 ## Contributing
 

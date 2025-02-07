@@ -4,7 +4,7 @@
 
 ## Description
 
-a
+s
 
 ## Table of Contents
 - [Installation](#installation)
@@ -16,26 +16,26 @@ a
 
 ## Installation
 
-sdf
+dd
 
 ## Usage
 
-asdf
-    
-## License 
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-  This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
+ff
+
+## License
+
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
 
 ## Contributing
 
-as
+asdf
 
 ## Tests
 
-adf
+;laksdjf
 
 ## Questions
 
-GitHub: [Liz_m](https://github.com/Liz_m)  
+GitHub: [Liz_M](https://github.com/Liz_M)  
 
-Email: al@al.com
+Email: liz@liz.com
