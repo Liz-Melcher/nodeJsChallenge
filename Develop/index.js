@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 import fs from 'fs'; 
 import inquirer from 'inquirer';
+import validator from 'validator';
 import generateMarkdown from './utils/generateMarkdown.js';
 
 const jsonData = JSON.parse(fs.readFileSync('package.json', 'utf-8')); 
@@ -53,26 +54,11 @@ const questions = [
         type: 'input',
         name: 'email',
         message: 'enter your email address:',
-        validate: (input) => /\S+@\S+\.\S+/.test(input) || 'Please enter a valid email address.',
+        validate: (input) => validator.isEmail(input) || 'Please enter a valid email address.',
     }
 
 
 ];
-//Project title - becomes the title of the readme 
-//Description
-//Installation
-//Usage
-//Contributing
-//Tests 
-
-//import license 
-
-//Questions section includes Github user name and contact information; email address; instructions for how to reach me
-// use Validator NPM to verify email address is formulated properly 
-// code asks a series of questions and gives an array; think about how to print in the terminal
-
-
-//table of contents has links 
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
